@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "NotoSansSymbols", sans-serif;
+  background-color: #2d4480;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  background-color: white;
+  border-radius: 15px;
+  width: 288px;
+  height: 469px;
+}
+h1 {
+  text-align: center;
+  padding: 2rem;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 100;
+}
+.card li h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
