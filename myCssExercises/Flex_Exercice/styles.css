@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allan:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -17,18 +18,78 @@ body {
 }
 .card {
   background-color: white;
-  border-radius: 15px;
-  width: 288px;
+  border-radius: 24px;
+  min-width: 288px;
   height: 469px;
 }
 h1 {
   text-align: center;
-  padding: 2rem;
+  padding: 2rem 2rem 1.8rem 2rem;
   text-transform: uppercase;
   font-size: 36px;
   font-weight: 100;
 }
-.card li h2 {
-  font-size: 16px;
+.img-lscontainer {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 2.2rem;
+}
+.img_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.39rem;
+}
+img {
+  width: 18px;
+}
+.card ul li {
+  list-style-type: none;
+  text-transform: uppercase;
+  list-style-position: inside;
+  padding-bottom: 1.4rem;
+  font-size: 1rem;
   font-weight: 600;
+}
+.card ul li:last-child {
+  padding-bottom: 0;
+}
+hr {
+  width: 188px;
+  margin-inline: auto;
+  border-top: 2px solid black;
+  margin-bottom: 13px;
+}
+.font2 {
+  font-family: "Allan";
+  font-weight: 400;
+  font-size: 36px;
+  color: #2d4480;
+  transform: translate(140px);
+  margin-bottom: 1.2rem;
+}
+.Free {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-align: center;
+}
+.butcontainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.button {
+  width: 62.8%;
+  min-height: 68px;
+  background-color: #ffbc0f;
+  border-radius: 36px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-wrap: break-word;
 }
