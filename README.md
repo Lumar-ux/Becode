@@ -1,2 +1,2 @@
 # UnitsandSizes
-UnitsandSizes is the first exercise in Henrique's resource
+UnitsandSizes is the third exercise in Henrique's resource
