@@ -383,31 +383,31 @@
 # for n in num:
 #     print(str(n))
 
-# import random as ra
-# ranum=ra.randint(1, 101)
-# print(ranum)
-# def choose(ranum):
-#     n=1
-#     name1=input("Entrez un nom de joueur : ")
-#     shooc=int(input("Essaye de trouver le numéro entre 1 et 100 : "))
-#     while shooc > 100 or shooc < 0:
-#         shooc=int(input("Essaye de trouver le numéro entre 1 et 100 : "))
-#     # for i in range(10):
-#     while shooc != ranum:
-#         n=n+1
-#         if n == 11:
-#             print(f"{name1}, You failed, try again!")
-#             break
-#         if n <= 10:
-#             if shooc > ranum:
-#                 print("Le numéro choisi est plus grand")
-#                 shooc=int(input("Essaye de trouver le numéro entre 1 et 100 : "))
-#             elif shooc < ranum:
-#                 print("Le numéro choisi est plus petit")
-#                 shooc=int(input("Essaye de trouver le numéro entre 1 et 100 : "))
-#     if shooc == ranum:
-#         print(f"Player {name1}, Vous avez deviné le bon chiffre en {n} tours")
-#         msg=True
-#     return(msg)
-# print(choose(ranum))
+import random as ra
+ranum=ra.randint(1, 101)
+print(ranum)
+def choose(ranum):
+    n=1
+    name1=input("Entrez un nom de joueur : ")
+    shooc=int(input("Essaye de trouver le numéro entre 1 et 100 : "))
+    while shooc > 100 or shooc < 0:
+        shooc=int(input("Essaye de trouver le numéro entre 1 et 100 : "))
+    # for i in range(10):
+    while shooc != ranum:
+        n=n+1
+        if n == 11:
+            print(f"{name1}, You failed, try again!")
+            break
+        if n <= 10:
+            if shooc > ranum:
+                print("Le numéro choisi est plus grand")
+                shooc=int(input("Essaye de trouver le numéro entre 1 et 100 : "))
+            elif shooc < ranum:
+                print("Le numéro choisi est plus petit")
+                shooc=int(input("Essaye de trouver le numéro entre 1 et 100 : "))
+    if shooc == ranum:
+        print(f"Player {name1}, Vous avez deviné le bon chiffre en {n} tours")
+        msg=True
+    return(msg)
+print(choose(ranum))
 
