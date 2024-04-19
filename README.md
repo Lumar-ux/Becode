@@ -1,3 +1,3 @@
-# Digital Sprint, Becode
+# boxTextHover
 
-File from Digital Sprint of Becode
+BoxTextHover is the first exercise in Henrique's resource
