@@ -1,3 +1,3 @@
 # boxTextHover
 
-BoxTextHover is the first exercise in Henrique's resource
+BoxTextHover is the second exercise in Henrique's resource
