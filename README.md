@@ -1,2 +1,2 @@
 # Pixel Perfect
-Pixel perfect is the first exercise in Henrique's resource
+Pixel perfect is the fourth exercise in Henrique's resource
