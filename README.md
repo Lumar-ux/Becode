@@ -1,2 +1,2 @@
-# UnitsandSizes
-UnitsandSizes is the first exercise in Henrique's resource
+# Pixel Perfect
+Pixel perfect is the first exercise in Henrique's resource
