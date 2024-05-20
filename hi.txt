@@ -1,3 +1,0 @@
-hi single
-hi double
-hello
