@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    height: 2500px;
+}
+h1{
+    background-color: blanchedalmond;
+    display: inline;
+}
+p {
+  width: 200px;
+  color: aqua;
+}
+span{
+    background-color: cadetblue;
+    display: inline-block;
+    margin: 2px;
+    height: 50px;
+}
+.text {
+  color: red;
+}
+.container{
+    background-color: red;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 50px;
+}
+.box{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50px;
+}
+.extend{
+    background-color: cyan;
+    width: 100px;
+    height: 100px;
+    /* width: 500px;
+    height: 100px;
+    position: sticky;
+    top: 50px;
+    bottom: 150px; */
+}
+.extendplus{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.cont{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.enft{
+    background-color: aquamarine;
+    width: inherit;
+    height: inherit;
+    float: left;
+    /* clear: right; */
+}
